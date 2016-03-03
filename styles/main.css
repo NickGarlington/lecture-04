@@ -3,7 +3,7 @@
   width: 80px;
   background-color: crimson;
   /*transition: background-color 3s, height 3s;*/
-  animation: 5s  linear dance-idarb-dance;
+  animation: 5s  linear 5s infinite dance-idarb-dance;
 }
 
 .idarb:hover {
@@ -39,7 +39,7 @@
   }
 
   50% {
-    transform: translatex(100px);
+    transform: translatex(100px) rotate(20deg) translatey(100px);
   }
 
   100% {
